@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>netflix</title>
+		<link rel="stylesheet" href="homepage_style.css">
+	</head>
+	<body>
+		<p class="heading">NETFLIX</p>
+       <button class="up">Log in</button>
+        <div class="content">
+        <p class="mid">Unlimited movies, TV shows and more</p>
+        <p class="mid1">Start at $40, cancel anytime!</p>
+        <p class="mid2">Ready to watch? Sign in to watch</p>
+        <button class="login">Sign Up</button><br><br></div>
+	</body>
+</html>
