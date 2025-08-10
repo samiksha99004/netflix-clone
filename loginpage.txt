@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    
+    <link rel="stylesheet" href="loginpage_style.css">
     </head>
     <body>
         <div class="middle">
@@ -18,14 +18,8 @@
         </div>
           <script>
         function validate() {
-            const email = document.getElementById("email").value.trim();
-            const password = document.getElementById("password").value.trim();
-
-            if (email === "" || password === "") {
-                alert("Please fill in all fields.");
-                return false;
-            }
-            return true;
+            location.href='page1.html'
+            return false;
         }
     </script>
     </body>

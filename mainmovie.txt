@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angry Birds Movie Details</title>
+<link rel="stylesheet" href="mainmovie_styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="poster">
+        <img src="angry.jpg" alt="Angry Birds Movie">
+        <div class="play-icon">▶</div>
+    </div>
+
+    <h1>Angry Birds Movie</h1>
+    <p class="details">⭐ 8.8/10 | 🎬 2016 | 😂 Animation, 🎭 Comedy | ⏳ 1h 37m</p>
+
+    <div class="synopsis">
+        🏝 On a peaceful island full of happy, flightless birds, life changes when mysterious green pigs 🐷 arrive.  
+        Three unlikely heroes — Red 🔴, Chuck ⚡, and Bomb 💣 — must uncover the pigs’ true plan and save their home.  
+        Colorful animation, hilarious moments, and a feel-good ending make this a family favorite ❤️.
+    </div>
+
+    <h2>User Reviews</h2>
+    <div class="reviews-box">
+        <p><strong>⭐ Aryan:</strong> "Hilarious and colorful! 🌈 My kids laughed non-stop 😂" ⭐⭐⭐⭐⭐</p>
+        <p><strong>⭐ Meera:</strong> "Great animation 🎨 but storyline a bit predictable 🤔" ⭐⭐⭐⭐</p>
+        <p><strong>⭐ Rahul:</strong> "Family movie night perfection 🍿❤️ Watched 3 times!" ⭐⭐⭐⭐⭐</p>
+        <p><strong>⭐ Sana:</strong> "Chuck is my favorite ⚡😂 Love his energy!" ⭐⭐⭐⭐⭐</p>
+        <p><strong>⭐ Vikram:</strong> "Good fun but wish for more twists 🌀" ⭐⭐⭐⭐</p>
+        <p><strong>⭐ Priya:</strong> "Adorable characters 😍 and catchy music 🎶" ⭐⭐⭐⭐⭐</p>
+        <p><strong>⭐ Anil:</strong> "A cheerful, light-hearted watch 😊" ⭐⭐⭐⭐</p>
+    </div>
+
+    <button class="back-btn" onclick="history.back()">⬅ Back</button>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.up {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 35px;
+  border: none;
+  right: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: red;
+  font-size: 50px;
+  padding: 20px 30px;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid {
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.3);
+}
+
+.mid1 {
+  color: white;
+  font-size: 20px;
+}
+
+.mid2 {
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.3);
+}
+
+.login {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+}
+
+.login:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+}
+
+.features {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: linear-gradient(145deg, #1a1a1a, #000);
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+}
+
+.feature-card h2 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #000;
+  color: #757575;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #1e90ff;
+}
+
+.footer-bottom {
+  font-size: 12px;
+}

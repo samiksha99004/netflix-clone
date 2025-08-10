@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>netflix</title>
-		<link rel="stylesheet" href="homepage_style.css">
-	</head>
-	<body>
-		<p class="heading">NETFLIX</p>
-       <button class="up">Log in</button>
-        <div class="content">
+<head>
+    <title>netflix</title>
+    <link rel="stylesheet" href="homepage_style.css">
+</head>
+<body>
+    <p class="heading">NETFLIX</p>
+    <button class="up" onclick="location.href='loginpage.html'">Log in</button>
+    <div class="content">
         <p class="mid">Unlimited movies, TV shows and more</p>
         <p class="mid1">Start at $40, cancel anytime!</p>
         <p class="mid2">Ready to watch? Sign in to watch</p>
-        <button class="login">Sign Up</button><br><br></div>
-	</body>
+        <button class="login" onclick="location.href='loginpage.html'">Sign Up</button>
+        <br><br>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-top">Questions? Call 000-800-919-1694</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Account</a>
+                <a href="#">Media Center</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Redeem Gift Cards</a>
+                <a href="#">Buy Gift Cards</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <p class="footer-bottom">© 2025 YourStreamingSite</p>
+        </div>
+    </footer>
+</body>
 </html>
